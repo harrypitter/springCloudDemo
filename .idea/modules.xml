@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CloudDemo.iml" filepath="$PROJECT_DIR$/.idea/CloudDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaClientFirst/client.iml" filepath="$PROJECT_DIR$/eurekaClientFirst/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaClientSecond/ribbonservice.iml" filepath="$PROJECT_DIR$/eurekaClientSecond/ribbonservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/erukaServe/server.iml" filepath="$PROJECT_DIR$/erukaServe/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurakeClientThree/servicethree.iml" filepath="$PROJECT_DIR$/eurakeClientThree/servicethree.iml" />
+    </modules>
+  </component>
+</project>

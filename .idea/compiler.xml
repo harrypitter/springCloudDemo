@@ -9,6 +9,7 @@
         <module name="client" />
         <module name="eurekaFeign" />
         <module name="HystrixDashboar" />
+        <module name="HystrixTurbine" />
         <module name="ribbonservice" />
         <module name="server" />
         <module name="servicethree" />
@@ -18,6 +19,7 @@
       <module name="client" target="1.8" />
       <module name="eurekaFeign" target="1.8" />
       <module name="HystrixDashboar" target="1.8" />
+      <module name="HystrixTurbine" target="1.8" />
       <module name="ribbonservice" target="1.8" />
       <module name="server" target="1.8" />
       <module name="servicethree" target="1.8" />

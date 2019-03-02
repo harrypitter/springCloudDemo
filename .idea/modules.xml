@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CloudDemo.iml" filepath="$PROJECT_DIR$/.idea/CloudDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/HystrixDashboar/HystrixDashboar.iml" filepath="$PROJECT_DIR$/HystrixDashboar/HystrixDashboar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HystrixTurbine/HystrixTurbine.iml" filepath="$PROJECT_DIR$/HystrixTurbine/HystrixTurbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaClientFirst/client.iml" filepath="$PROJECT_DIR$/eurekaClientFirst/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaFeign/eurekaFeign.iml" filepath="$PROJECT_DIR$/eurekaFeign/eurekaFeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaClientSecond/ribbonservice.iml" filepath="$PROJECT_DIR$/eurekaClientSecond/ribbonservice.iml" />

@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient(value = "SPRING-CLIENT-01")
+@FeignClient(value = "SPRING-CLIENT-01" ,fallback = ErrorHystrix.class)
 public interface FeignDemoService {
 
     @RequestMapping(value = "port" , method = RequestMethod.GET)

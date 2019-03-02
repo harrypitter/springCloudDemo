@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f715e3-42cf-47ea-a329-ef93ca058e6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/FeignDemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/web/FeignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/ErrorHystrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaClientFirst/src/main/java/com/cloud/client/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaClientFirst/src/main/java/com/cloud/client/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaClientSecond/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaClientSecond/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/RibbonserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/RibbonserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/service/RibbonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/service/RibbonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaFeign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaFeign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/FeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/FeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/FeignDemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/FeignDemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaFeign/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaFeign/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eurekaClientFirst/target/" />
     <ignored path="$PROJECT_DIR$/eurakeClientThree/target/" />
@@ -29,44 +37,47 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="33" />
-          <entry key="properties" value="8" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="39" />
+          <entry key="properties" value="11" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="33" />
-          <entry key="Properties" value="8" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="39" />
+          <entry key="Properties" value="11" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="257" />
-          <entry key="properties" value="47" />
+          <entry key="java" value="429" />
+          <entry key="properties" value="57" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="257" />
-          <entry key="Properties" value="47" />
+          <entry key="JAVA" value="429" />
+          <entry key="Properties" value="57" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/FeignDemoService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" lean-forward="true" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,22 +86,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eurekaClientFirst/src/main/java/com/cloud/client/controller/Controller.java">
+        <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/ErrorHystrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="true" selection-end-line="19" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eurekaClientFirst/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/service/RibbonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="266">
+              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -98,23 +112,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/RibbonserviceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="110">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/web/FeignController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-end-line="26" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,34 +147,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/FeignApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erukaServe/src/main/java/com/cloud/server/ServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eurekaClientFirst/src/main/java/com/cloud/client/ClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,8 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="45" />
+            <state relative-caret-position="270">
+              <caret line="18" column="26" lean-forward="true" selection-end-line="18" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -167,8 +169,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eurekaFeign/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="45" column="21" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="45" selection-end-column="21" />
+            <state relative-caret-position="247">
+              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurekaClientSecond/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="45" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -199,18 +210,20 @@
         <option value="$PROJECT_DIR$/eurekaClientSecond/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/controller/Controller.java" />
         <option value="$PROJECT_DIR$/eurakeClientThree/src/main/java/com/cloud/servicethree/service/DemoService.java" />
-        <option value="$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/RibbonserviceApplication.java" />
         <option value="$PROJECT_DIR$/eurakeClientThree/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eurekaClientFirst/src/main/java/com/cloud/client/ClientApplication.java" />
-        <option value="$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/service/RibbonService.java" />
-        <option value="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/FeignApplication.java" />
         <option value="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/FeignService.java" />
         <option value="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/IFeignDemoService.java" />
-        <option value="$PROJECT_DIR$/eurekaFeign/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/FeignDemoService.java" />
         <option value="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/web/FeignController.java" />
         <option value="$PROJECT_DIR$/eurekaClientFirst/src/main/java/com/cloud/client/controller/Controller.java" />
         <option value="$PROJECT_DIR$/eurekaClientFirst/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/RibbonserviceApplication.java" />
+        <option value="$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/service/RibbonService.java" />
+        <option value="$PROJECT_DIR$/eurekaFeign/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/FeignApplication.java" />
+        <option value="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/FeignDemoService.java" />
+        <option value="$PROJECT_DIR$/eurekaFeign/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/ErrorHystrix.java" />
       </list>
     </option>
   </component>
@@ -220,6 +233,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand />
@@ -227,7 +247,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="27" />
+    <option name="y" value="30" />
     <option name="width" value="1238" />
     <option name="height" value="777" />
   </component>
@@ -237,7 +258,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,52 +304,62 @@
             <path>
               <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaClientFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaClientSecond" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaClientFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaClientSecond" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaClientFirst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaClientFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaClientSecond" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaClientFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaClientSecond" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaClientFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaClientSecond" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbonservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaClientSecond" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbonservice" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaClientFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaClientSecond" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbonservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaClientSecond" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -400,8 +431,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,7 +442,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551512764548" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551517437094" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -428,7 +459,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClientApplication">
+  <component name="RunManager" selected="Spring Boot.FeignApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="client" />
       <extension name="coverage">
@@ -490,11 +521,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.FeignApplication" />
       <item itemvalue="Spring Boot.ServerApplication" />
       <item itemvalue="Spring Boot.ClientApplication" />
       <item itemvalue="Spring Boot.RibbonserviceApplication" />
       <item itemvalue="Spring Boot.ServicethreeApplication" />
-      <item itemvalue="Spring Boot.FeignApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -515,49 +546,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551503020582</updated>
-      <workItem from="1551503022524" duration="8949000" />
+      <workItem from="1551503022524" duration="9921000" />
+      <workItem from="1551514267130" duration="2514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8949000" />
+    <option name="totallyTimeSpent" value="12435000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1238" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="27" y="30" width="1238" height="777" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2541806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329927" />
-      <window_info anchor="bottom" id="Java Enterprise" weight="0.329927" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21167883" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4452555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32943144" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329927" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329927" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32943144" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,7 +602,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/service/RibbonService.java</url>
-          <line>25</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -607,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erukaServe/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eurakeClientThree/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -642,38 +666,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClientSecond/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="41" column="21" selection-start-line="38" selection-start-column="8" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/service/IRibbonService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/service/RibbonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -695,24 +691,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/FeignService.java" />
+    <entry file="file://$PROJECT_DIR$/eurekaClientFirst/src/main/java/com/cloud/client/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/RibbonserviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/FeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -723,44 +712,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClientFirst/src/main/java/com/cloud/client/ClientApplication.java">
+    <entry file="file://$PROJECT_DIR$/erukaServe/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="270">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaClientFirst/src/main/java/com/cloud/client/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/eurekaClientFirst/src/main/java/com/cloud/client/ClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="195">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaFeign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/web/FeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaClientSecond/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/service/RibbonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/java/com/cloud/ribbonservice/RibbonserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/eurekaClientSecond/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaFeign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="240">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/FeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" lean-forward="true" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/ErrorHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-end-line="19" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -768,23 +817,9 @@
     <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/service/FeignDemoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" lean-forward="true" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaFeign/src/main/java/com/springcloudfeign/feign/web/FeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
           </folding>
         </state>
       </provider>

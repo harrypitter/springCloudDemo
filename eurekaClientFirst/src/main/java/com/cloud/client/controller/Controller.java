@@ -19,7 +19,7 @@ public class Controller {
 
     @RequestMapping("/show")
     public String getInfo(){
-        return "I'm form service:"+serviceName+",port:"+port;
+        return "I'm form show service:"+serviceName+",port:"+port;
     }
 
     @RequestMapping(value = "no/{no}", method = RequestMethod.GET)

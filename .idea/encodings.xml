@@ -5,5 +5,6 @@
     <file url="file://$PROJECT_DIR$/eurakeClientThree" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaClientFirst" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaClientSecond" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaFeign" charset="UTF-8" />
   </component>
 </project>

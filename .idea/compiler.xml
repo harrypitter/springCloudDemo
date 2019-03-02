@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
         <module name="eurekaFeign" />
+        <module name="HystrixDashboar" />
         <module name="ribbonservice" />
         <module name="server" />
         <module name="servicethree" />
@@ -16,6 +17,7 @@
     <bytecodeTargetLevel>
       <module name="client" target="1.8" />
       <module name="eurekaFeign" target="1.8" />
+      <module name="HystrixDashboar" target="1.8" />
       <module name="ribbonservice" target="1.8" />
       <module name="server" target="1.8" />
       <module name="servicethree" target="1.8" />

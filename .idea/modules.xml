@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/eurekaFeign/eurekaFeign.iml" filepath="$PROJECT_DIR$/eurekaFeign/eurekaFeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaClientSecond/ribbonservice.iml" filepath="$PROJECT_DIR$/eurekaClientSecond/ribbonservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/erukaServe/server.iml" filepath="$PROJECT_DIR$/erukaServe/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/erukaServe02/server02.iml" filepath="$PROJECT_DIR$/erukaServe02/server02.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurakeClientThree/servicethree.iml" filepath="$PROJECT_DIR$/eurakeClientThree/servicethree.iml" />
     </modules>
   </component>

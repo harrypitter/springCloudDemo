@@ -12,6 +12,7 @@
         <module name="HystrixTurbine" />
         <module name="ribbonservice" />
         <module name="server" />
+        <module name="server02" />
         <module name="servicethree" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="HystrixTurbine" target="1.8" />
       <module name="ribbonservice" target="1.8" />
       <module name="server" target="1.8" />
+      <module name="server02" target="1.8" />
       <module name="servicethree" target="1.8" />
     </bytecodeTargetLevel>
   </component>

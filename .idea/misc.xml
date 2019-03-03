@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/eurekaFeign/pom.xml" />
         <option value="$PROJECT_DIR$/HystrixDashboar/pom.xml" />
         <option value="$PROJECT_DIR$/HystrixTurbine/pom.xml" />
+        <option value="$PROJECT_DIR$/erukaServe02/pom.xml" />
       </list>
     </option>
   </component>

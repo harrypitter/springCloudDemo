@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/HystrixDashboar/pom.xml" />
         <option value="$PROJECT_DIR$/HystrixTurbine/pom.xml" />
         <option value="$PROJECT_DIR$/erukaServe02/pom.xml" />
+        <option value="$PROJECT_DIR$/CouldConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/GateWay/pom.xml" />
       </list>
     </option>
   </component>

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CloudDemo.iml" filepath="$PROJECT_DIR$/.idea/CloudDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CouldConfig/CouldConfig.iml" filepath="$PROJECT_DIR$/CouldConfig/CouldConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GateWay/GateWay.iml" filepath="$PROJECT_DIR$/GateWay/GateWay.iml" />
       <module fileurl="file://$PROJECT_DIR$/HystrixDashboar/HystrixDashboar.iml" filepath="$PROJECT_DIR$/HystrixDashboar/HystrixDashboar.iml" />
       <module fileurl="file://$PROJECT_DIR$/HystrixTurbine/HystrixTurbine.iml" filepath="$PROJECT_DIR$/HystrixTurbine/HystrixTurbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaClientFirst/client.iml" filepath="$PROJECT_DIR$/eurekaClientFirst/client.iml" />

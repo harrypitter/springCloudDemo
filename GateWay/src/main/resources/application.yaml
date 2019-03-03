@@ -1,0 +1,32 @@
+server:
+  port: 9900
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:12345/eureka/
+
+spring:
+  application:
+            name: CLOUD-GATEWAY-SERVICE
+
+management:
+  endpoints:
+        web:
+          exposure:
+            include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+zuul:
+  routes:
+    ribbon:
+      path: /ribbon/**
+      service-id: SPRING-CLIENT-02
+    feign:
+      path: /feign/**
+      service-id: SPRING-FEIGN-SERVICE
+    client:
+      path: /three/**
+      service-id: SPRING-CLIENT-03

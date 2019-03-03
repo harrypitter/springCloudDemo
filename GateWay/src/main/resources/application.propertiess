@@ -1,0 +1,10 @@
+server.port = 9900
+
+eureka.client.serviceUrl.defaultZone= http://localhost:12345/eureka/
+spring.application.name= CLOUD-GATEWAY-SERVICE
+
+management.endpoints.web.exposure.include= '*'
+management.endpoint.health.show-details= ALWAYS
+
+zuul.routes.ribbon.path=/ribbon/**
+zuul.routes.ribbon.service-id=SPRING-CLIENT-02
